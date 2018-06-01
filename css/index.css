@@ -355,15 +355,16 @@ h4{
 	overflow: hidden;
 }
 .main_8 ul{
-	width: 572px;
+	/*width: 572px;*/
 	margin: 0 auto 50px;
 }
 .main_8 li{
 	float: left;
-	width: 50%;
+	width: calc(100% / 3);
 	padding-left: 50px;
 	box-sizing: border-box;
 	line-height: 40px;
+	text-align: center;
 }
 .main_8 li img{
 	width: 20px;
